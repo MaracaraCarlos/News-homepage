@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Frontend Mentor | News homepage</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">
+          <img src="images/logo.svg" alt="logo">
+        </div>
+
+        <div id="menu_container">
+          <button id="image_menu_close">
+            <img src="images/icon-menu-close.svg" alt="menu close">
+          </button>
+          <ul>
+            <li>Home</li>
+            <li>New</li>
+            <li>Popular</li>
+            <li>Trending</li>
+            <li>Categories</li>
+          </ul>
+        </div>
+
+        <div class="image_menu">
+          <button id="image_menu">
+            <img src="images/icon-menu.svg" alt="menu">
+          </button>
+        </div>
+      
+      </nav>
+      <picture class="major_image">
+        <source srcset="images/image-web-3-mobile.jpg" media="(max-width: 768px)">
+        <img src="images/image-web-3-desktop.jpg" alt="web3">
+      </picture>
+      <div class="title_left">
+        <h1>The Bright Future of Web 3.0?</h1>
+      </div>
+      <div class="middle">
+        <p>
+          We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+          But is it really fulfilling its promise?
+        </p>
+        <button>READ MORE</button>
+      </div>
+      <div class="right_new">
+        <h2>New</h2>
+        <div class="right_block first">
+          <h3>Hydrogen VS Electric Cars</h3>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+        
+        <div class="right_block second">
+          <h3>The Downsides of AI Artistry</h3>
+          <p>What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+        
+        <div class="right_block">
+          <h3>Is VC Funding Drying Up?</h3>
+          <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+      </div>
+      <div class="footer one">
+        <div class="image_footer">
+          <img src="images/image-retro-pcs.jpg" alt="retro">
+        </div>
+        <div class="info_one info">
+          <h4>01</h4>
+          <p class="negrita">Reviving Retro PCs</p>
+          <p class="paragraph">What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+      <div class="footer two">
+        <div class="image_footer">
+          <img src="images/image-top-laptops.jpg" alt="laptop">
+        </div>
+        <div class="info_two info">
+          <h4>02</h4>
+          <p class="negrita">Top 10 Laptops of 2022</p>
+          <p class="paragraph">Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+      <div class="footer three">
+        <div class="image_footer">
+          <img src="images/image-gaming-growth.jpg" alt="gaming">
+        </div>
+        <div class="info_three info">
+          <h4>03</h4>
+          <p class="negrita">The Growth of Gaming</p>
+          <p class="paragraph">How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    <script src="script.js"></script>
+  </body>
+</html>
