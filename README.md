@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![image](https://github.com/MaracaraCarlos/News-homepage/assets/113530553/be33de2c-6633-422a-9ff7-943a96002c5f)
 
 ### Links
 
